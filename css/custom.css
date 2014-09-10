@@ -1,0 +1,277 @@
+@font-face {
+  font-family: earth-kid;
+  src: url('../fonts/earth-kid.ttf') format('truetype');
+}
+
+body {
+  background-color: #222;
+  color: #b0b0b0;
+  padding-top: 75px; /* Padding for the navbar */
+}
+
+/* === BANNER === */
+
+.banner img {
+  margin: 0px auto;
+}
+
+/* === PAGE === */
+
+.page h2 {
+  margin-bottom: 20px;
+  font-family: earth-kid, Helvetica;
+  color: #c3d565;
+  text-shadow: 3px 0px 5px #74b422,
+              -3px 0px 5px #74b422;
+}
+
+.page a, footer a {
+  color: #b6101a;
+  -webkit-transition: all 0.25s ease 0s;
+     -moz-transition: all 0.25s ease 0s;
+       -o-transition: all 0.25s ease 0s;
+          transition: all 0.25s ease 0s;
+}
+
+.page a:hover, footer a:hover {
+  color: #e50f1e;
+  text-shadow: 3px 0px 5px #e50f1e,
+              -3px 0px 5px #e50f1e;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease 0s;
+     -moz-transition: all 0.25s ease 0s;
+       -o-transition: all 0.25s ease 0s;
+          transition: all 0.25s ease 0s;
+}
+
+/* === CONTENT === */
+
+.content {
+  margin-top: 20px;
+}
+
+.content-item {
+  padding: 0 20px;
+}
+
+/* === HOMEPAGE === */
+
+.listen {
+  margin-bottom: 30px;
+}
+
+.listen h2 {
+  margin-bottom: 23px;
+}
+
+.videobox {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.videobox iframe {
+  border: 5px solid rgba(182, 16, 26, 0.7); /* #b6101a */
+  border-radius: 3px;
+  /* Responsive iframe */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* === NEWS === */
+
+.news ul {
+  list-style: none;
+  padding: 0;
+}
+
+.article {
+  margin-top: 20px;
+}
+
+.article-more {
+  font-size: 10px;
+  margin-left: 0px;
+  /*border-top: 1px solid #000000;*/
+}
+
+.article-date {
+  font-size: 12px;
+  margin-left: 0px;
+  font-style: italic;
+  /*border-top: 1px solid #000000;*/
+}
+
+.article-back {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+/* === ASIDE === */
+
+.aside {
+  margin-top: 20px;
+}
+
+.aside-item {
+  padding: 0 20px;
+  margin-bottom: 30px
+}
+
+.aside-item .cover-heading {
+  margin-bottom: 23px;
+}
+
+.aside-item .cover-img {
+  border: 5px solid rgba(182, 16, 26, 0.7); /* #b6101a */
+  border-radius: 3px;
+}
+
+.aside-tour-list {
+  margin-top: -5px;
+}
+
+.aside-tour-date {
+  padding: 5px;
+}
+
+.aside-tour-date .date {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.aside-tour-date .location {
+  margin-bottom: 0px;
+}
+
+.aside-tour-date .venue {
+  font-style: italic;
+  width: 65%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #777;
+}
+
+/* === BIO === */
+
+.bio-image {
+  margin-top: 20px;
+}
+
+.bio-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* === TOUR === */
+
+.tour table {
+  width: 100%;
+}
+
+.tour th {
+  color: #c0c0c0;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.tour td {
+  min-width: 9em;
+  color: #c0c0c0;
+  padding: 5px 10px;
+}
+
+.tour .even {
+  background-color: #000;
+}
+
+/* === PHOTOS === */
+
+.photo-list ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.photo-list li {
+  margin-top: 10px;
+  list-style-type: circle;
+}
+
+/* === GALLERY === */
+
+.gallery {
+  padding-top: 20px;
+}
+
+.gallery h2 {
+  font-family: Helvetica;
+  padding-left: 15px;
+}
+
+.gallery > a {
+  margin-left: 15px;
+}
+
+.gallery ul {
+  list-style-type: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.gallery li {
+  margin-bottom: 25px;
+}
+
+.gallery img {
+  border-radius: 5px;
+}
+
+/* === CONTACT === */
+
+.contact-text {
+  margin-top: 20px;
+}
+
+/* === 404 === */
+
+.not-found {
+  text-align: center;
+}
+
+.not-found h2 {
+  margin-bottom: 10px;
+  font-family: Helvetica;
+  font-size: 75px;
+}
+
+.not-found p {
+  font-family: Helvetica;
+  font-size: 35px;
+  color: #c3d565;
+  text-shadow: 3px 0px 5px #74b422,
+              -3px 0px 5px #74b422;
+}
+
+/* === FOOTER === */
+
+.players {
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: 0  10px 10px rgba(0, 0, 0, 0.4) inset,
+              0 -10px 10px rgba(0, 0, 0, 0.4) inset;
+  background-color: #60080c;
+}
+
+.bandcamp-player {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer .container {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #888;
+}
