@@ -21,8 +21,8 @@ body {
   margin-bottom: 20px;
   font-family: earth-kid, Helvetica;
   color: #c3d565;
-  text-shadow: 3px 0px 5px #74b422,
-              -3px 0px 5px #74b422;
+  text-shadow: 1px 0px 5px #74b422,
+              -1px 0px 5px #74b422;
 }
 
 .page a, footer a {
@@ -35,8 +35,8 @@ body {
 
 .page a:hover, footer a:hover {
   color: #e50f1e;
-  text-shadow: 3px 0px 5px #e50f1e,
-              -3px 0px 5px #e50f1e;
+  text-shadow: 1px 0px 5px #e50f1e,
+              -1px 0px 5px #e50f1e;
   text-decoration: none;
   -webkit-transition: all 0.25s ease 0s;
      -moz-transition: all 0.25s ease 0s;
@@ -250,8 +250,8 @@ body {
   font-family: Helvetica;
   font-size: 35px;
   color: #c3d565;
-  text-shadow: 3px 0px 5px #74b422,
-              -3px 0px 5px #74b422;
+  text-shadow: 1px 0px 5px #74b422,
+              -1px 0px 5px #74b422;
 }
 
 /* === FOOTER === */
