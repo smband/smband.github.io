@@ -1,7 +1,6 @@
 @font-face {
   font-family: earth-kid;
   src: url('../fonts/earth-kid.woff') format('woff');
-  src: url('../fonts/earth-kid.ttf') format('truetype');
 }
 
 body {
