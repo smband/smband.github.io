@@ -67,7 +67,9 @@ body {
 .videobox {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 30px; height: 0; overflow: hidden;
+  padding-top: 30px; height: 0;
+  overflow: hidden;
+  margin-bottom: 13px;  /* 3px for the border radius of the iframe */
 }
 
 .videobox iframe {
@@ -95,14 +97,12 @@ body {
 .article-more {
   font-size: 10px;
   margin-left: 0px;
-  /*border-top: 1px solid #000000;*/
 }
 
 .article-date {
   font-size: 12px;
   margin-left: 0px;
   font-style: italic;
-  /*border-top: 1px solid #000000;*/
 }
 
 .article-back {
