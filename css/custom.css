@@ -143,12 +143,12 @@ body {
   margin-bottom: 0px;
 }
 
-.aside-tour-date .location {
+.aside-tour-date .venue {
+  font-style: italic;
   margin-bottom: 0px;
 }
 
-.aside-tour-date .venue {
-  font-style: italic;
+.aside-tour-date .location {
   width: 65%;
   padding-bottom: 5px;
   border-bottom: 1px solid #777;
