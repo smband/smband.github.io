@@ -64,12 +64,18 @@ body {
   margin-bottom: 23px;
 }
 
+.yt-embed {
+  max-width: 650px;
+  margin-bottom: 13px;  /* 3px for the border radius of the iframe */
+}
+
 .videobox {
+  /* Responsive videobox */
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 30px; height: 0;
+  padding-top: 30px;
+  height: 0;
   overflow: hidden;
-  margin-bottom: 13px;  /* 3px for the border radius of the iframe */
 }
 
 .videobox iframe {
@@ -158,6 +164,8 @@ body {
 
 .bio-image {
   margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .bio-text {
