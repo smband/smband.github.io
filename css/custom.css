@@ -20,13 +20,17 @@ body {
 .page h2 {
   margin-bottom: 20px;
   font-family: earth-kid, Helvetica;
-  color: #c3d565;
-  text-shadow: 1px 0px 5px #74b422,
-              -1px 0px 5px #74b422;
+  color: #ee3e5d;
+}
+
+.page h2.past {
+  margin-top: 45px;
+  color: #c5c3c6;
+  text-shadow: none;
 }
 
 .page a, footer a {
-  color: #b6101a;
+  color: #ee3e5d;
   -webkit-transition: all 0.25s ease 0s;
      -moz-transition: all 0.25s ease 0s;
        -o-transition: all 0.25s ease 0s;
@@ -34,9 +38,9 @@ body {
 }
 
 .page a:hover, footer a:hover {
-  color: #e50f1e;
-  text-shadow: 1px 0px 5px #e50f1e,
-              -1px 0px 5px #e50f1e;
+  color: #f86851;
+  text-shadow: 1px 0px 5px #f86851,
+              -1px 0px 5px #f86851;
   text-decoration: none;
   -webkit-transition: all 0.25s ease 0s;
      -moz-transition: all 0.25s ease 0s;
@@ -79,7 +83,7 @@ body {
 }
 
 .videobox iframe {
-  border: 5px solid rgba(182, 16, 26, 0.7); /* #b6101a */
+  border: 5px solid #c5c3c6;
   border-radius: 3px;
   /* Responsive iframe */
   position: absolute;
@@ -132,7 +136,7 @@ body {
 }
 
 .aside-item .cover-img {
-  border: 5px solid rgba(182, 16, 26, 0.7); /* #b6101a */
+  border: 5px solid #c5c3c6;
   border-radius: 3px;
 }
 
@@ -283,5 +287,3 @@ footer .container {
   padding-top: 20px;
   border-top: 1px solid #888;
 }
-
-.article h3 a { color: green; }
