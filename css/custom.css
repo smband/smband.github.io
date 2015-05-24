@@ -196,7 +196,45 @@ body {
 }
 
 .tour .even {
-  background-color: #000;
+  background-color: #111;
+}
+
+@media screen and (max-width: 640px) {
+  .tour table, .tour thead, .tour tbody, .tour th, .tour td, .tour tr {
+    display: block;
+  }
+
+  .tour thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .tour td {
+    position: relative;
+    padding-left: 50%;
+  }
+
+  .tour td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .tour td:nth-of-type(1):before { color: #c0c0c0; font-weight: bold; content: "Date"; }
+  .tour td:nth-of-type(2):before { color: #c0c0c0; font-weight: bold; content: "Venue"; }
+  .tour td:nth-of-type(3):before { color: #c0c0c0; font-weight: bold; content: "Location"; }
+
+  .tour .even {
+    background-color: transparent;
+  }
+
+  .tour .odd {
+    background-color: #111;
+  }
 }
 
 /* === PHOTOS === */
