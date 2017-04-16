@@ -164,6 +164,11 @@ body {
   border-bottom: 1px solid #777;
 }
 
+.aside-pr img {
+  padding: 3px;
+  background-color: #fff;
+}
+
 /* === BIO === */
 
 .bio-image {
