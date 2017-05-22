@@ -95,13 +95,17 @@ body {
 
 /* === NEWS === */
 
-.news ul {
+.news .articles {
   list-style: none;
   padding: 0;
 }
 
 .article {
   margin-top: 20px;
+}
+
+.article ul {
+  margin-bottom: 10px;
 }
 
 .article-more {
