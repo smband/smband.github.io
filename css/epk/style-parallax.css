@@ -11,19 +11,19 @@
 
 #highlights {
   width: 100%;
-  background-image: url(../images/bg-1.jpg);
+  background-image: url(../../img/epk/bg-1.jpg);
   background-position: 50% 0px;
   min-height:728px;
 }
 #bio {
   width: 100%;
-  background-image: url(../images/bg-2.jpg);
+  background-image: url(../../img/epk/bg-2.jpg);
   background-position: 50% 0px;
   padding: 5% 0;
 
 }
 #album {
   width: 100%;
-  background-image: url(../images/bg-3.jpg);
+  background-image: url(../../img/epk/bg-3.jpg);
   background-position: 50% 0px;
 }
